@@ -1,0 +1,21 @@
+h1 {
+    font-size: 50px;
+    color: #333;
+    margin-top: 10rem;
+    margin-left: 13rem;
+}
+
+#result {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #333;
+    padding: 2rem;
+    margin-left: 6.5rem;
+}
+
+input {
+    border-color: #333;
+    border-style: groove;
+    margin: 2rem;
+}
+

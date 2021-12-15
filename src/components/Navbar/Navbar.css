@@ -1,0 +1,49 @@
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    color: aliceblue;
+    display: flex;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#tag {
+    font-size: 30px;
+    text-align: start;
+}
+
+
+.nav1 {
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav1 :hover {
+    text-decoration: underline;
+}
+
+#logOut {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background: #333;
+    color: aliceblue;
+    border-style: dashed;
+    border-color: aliceblue;
+    margin-left: 500px;
+
+
+}

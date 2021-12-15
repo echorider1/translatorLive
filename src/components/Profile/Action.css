@@ -1,0 +1,34 @@
+header {
+    color: #333;
+    margin-left: 15rem;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#clearButton {
+    position: fixed;
+    margin-top: 75px;
+    margin-left: 200px;
+    font-family: 'Oswald', sans-serif;
+    background: none;
+    display: flex;
+    color: #333;
+    border-style: groove;
+}
+
+#section {
+    margin-left: 17rem;
+    padding-top: 20px;
+}
+
+
+
+#prevSearch {
+    margin-top: 4rem;
+    margin-left: 15rem;
+    text-decoration: underline;
+}
+
+.history {
+    justify-content: center;
+}

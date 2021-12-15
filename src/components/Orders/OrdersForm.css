@@ -1,0 +1,16 @@
+fieldset {
+    border: none;
+}
+
+#searchTag {
+    color: #333;
+    margin-left: -1rem;
+}
+
+#submitButton {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    border-style: groove;
+    background: none;
+    margin-left: -0.4rem;
+}

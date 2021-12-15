@@ -1,0 +1,41 @@
+#field {
+    border: none;
+    margin-top: 10rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#label {
+    margin-left: 7rem;
+    padding-right: 0.5rem;
+}
+
+h2 {
+    margin-left: 7rem;
+}
+
+#input {
+    font-family: 'Oswald', sans-serif;
+}
+
+#loading {
+    margin: 13rem;
+}
+
+input, :focus{
+    outline: none;
+}
+
+
+
+#loginButton {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background: none;
+    color: #333;
+    border-style: groove;
+    border-color: #333;
+    margin-left: 14.5rem;
+}
