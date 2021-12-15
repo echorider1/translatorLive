@@ -1,5 +1,5 @@
 const ProfileOrderHistoryItem = ({ order }) => {
-    return <p> { order } </p>
+    return <li> { order } </li>
 }
 
 export default ProfileOrderHistoryItem

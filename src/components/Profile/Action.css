@@ -6,12 +6,10 @@ header {
 }
 
 #clearButton {
-    position: fixed;
     margin-top: 75px;
-    margin-left: 200px;
+    margin-left: 240px;
     font-family: 'Oswald', sans-serif;
     background: none;
-    display: flex;
     color: #333;
     border-style: groove;
 }

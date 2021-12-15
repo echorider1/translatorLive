@@ -15,7 +15,6 @@ const Orders = () => {
     const { user, setUser } = useUser()
 
     const handleOrderClicked = async (currentTranslation) => {
-        console.log(currentTranslation)
         if (!currentTranslation) {
             alert ('Please form a word or sentence')
             return
@@ -29,9 +28,6 @@ const Orders = () => {
         setTranslation(currentTranslation)
         storageSave(STORAGE_KEY_USER, updatedUser)
         setUser(updatedUser)
-
-        console.log('Error', error);
-        console.log('result', updatedUser);
     }
 
     

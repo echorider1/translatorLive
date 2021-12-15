@@ -35,8 +35,6 @@ const LoginForm = () => {
         if (user !== null) {
             navigate('orders')
         }
-
-        console.log('User has changed!', user)
     }, [ user, navigate ])
 
     const onSubmit = async ({ username }) => {

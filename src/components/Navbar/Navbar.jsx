@@ -22,21 +22,21 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <ul>
-                <li id="tag">The Amazing Translator</li>
+                <p id="tag">The Amazing Translator</p>
             </ul>
 
 
             { user !== null &&
                 <>
-                <ul>
-                <li className="nav1">
-                    <NavLink to="/orders">Translator</NavLink>
-                </li>
-                <li className="nav1">
-                    <NavLink to="/profile">Profile</NavLink>
-                </li>
-                </ul>
-                <button id="logOut" onClick={ handleLogoutClick }>Log out</button>
+                    <ul>
+                        <li className="nav1">
+                            <NavLink to="/orders">Translator</NavLink>
+                        </li>
+                        <li className="nav1">
+                            <NavLink to="/profile">Profile</NavLink>
+                        </li>
+                    </ul>
+                    <button id="logOut" onClick={ handleLogoutClick }>Log out</button>
                 </>
             }
         </nav>
