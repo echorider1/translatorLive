@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Translator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Icons made by  [Kiranshastry](https://www.flaticon.com/authors/kiranshastry) <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
 ## Available Scripts
 
